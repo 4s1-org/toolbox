@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://gitlab.com/4s1/toolbox/compare/v1.0.0...v1.1.0) (2021-09-11)
+
+
+### Features
+
+* Add colors ([d92a2da](https://gitlab.com/4s1/toolbox/commit/d92a2dae37c8c68cfb9eca7b9d76a3a53f5e368c))
+
+
+### Renovate Bot
+
+* update dependency typescript to v4.4.3 ([005a041](https://gitlab.com/4s1/toolbox/commit/005a041f10136326dad4656e28e4c08585ab1eea))
+
 ## 1.0.0 (2021-09-11)
 
 
