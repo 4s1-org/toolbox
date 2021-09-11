@@ -3,91 +3,149 @@ export interface ColorPair {
   dark: string
 }
 
+/**
+ * 4s1 Colors
+ *
+ * Based on https://flatui.com/flat-ui-color-palette/
+ */
 export abstract class Color {
-  public get turquoise(): string {
+  /**
+   * Turquoise
+   */
+  public static get lightTurquoise(): string {
     return '#1ABC9C'
   }
 
-  public get greenSea(): string {
+  /**
+   * Green Sea
+   */
+  public static get darkTurquoise(): string {
     return '#16A085'
   }
 
-  public get emerald(): string {
+  /**
+   * Emerald
+   */
+  public static get lightGreen(): string {
     return '#2ECC71'
   }
 
-  public get nephritis(): string {
+  /**
+   * Nephritis
+   */
+  public static get dargGreen(): string {
     return '#27AE60'
   }
 
-  public get greenTones(): ColorPair {
-    return {
-      bright: this.emerald,
-      dark: this.nephritis,
-    }
-  }
-
-  public get peterRiver(): string {
+  /**
+   * Peter River
+   */
+  public static get lightBlue(): string {
     return '#3498DB'
   }
 
-  public get belizeHole(): string {
+  /**
+   * Belize Hole
+   */
+  public static get darkBlue(): string {
     return '#2980B9'
   }
 
-  public get amethyst(): string {
+  /**
+   * Amethyst
+   */
+  public static get lightPurple(): string {
     return '#9B59B6'
   }
 
-  public get wisteria(): string {
+  /**
+   * Wisteria
+   */
+  public static get darkPurple(): string {
     return '#8E44AD'
   }
 
-  public get wetAsphalt(): string {
+  /**
+   * Wet Asphalt
+   */
+  public static get lightBlack(): string {
     return '#34495E'
   }
 
-  public get midnightBlue(): string {
+  /**
+   * Midnight Blue
+   */
+  public static get darkBlack(): string {
     return '#2C3E50'
   }
 
-  public get sunFlower(): string {
+  /**
+   * Sun Flower
+   */
+  public get lightYellow(): string {
     return '#F1C40F'
   }
 
-  public get orange(): string {
+  /**
+   * Orange
+   */
+  public get darkYellow(): string {
     return '#F39C12'
   }
 
-  public get carrot(): string {
+  /**
+   * Carrot
+   */
+  public get lightOrange(): string {
     return '#E67E22'
   }
 
-  public get pumpkin(): string {
+  /**
+   * Pumpkin
+   */
+  public get darkOrange(): string {
     return '#D35400'
   }
 
-  public get alizarin(): string {
+  /**
+   * Alizarin
+   */
+  public get lightRed(): string {
     return '#E74C3C'
   }
 
-  public get pomegranate(): string {
+  /**
+   * Pomegranate
+   */
+  public get darkRed(): string {
     return '#C0392B'
   }
 
-  public get clouds(): string {
+  /**
+   * Clouds
+   */
+  public get lightWhite(): string {
     return '#ECF0F1'
   }
 
-  public get silver(): string {
+  /**
+   * Silver
+   */
+  public get darkWhite(): string {
     return '#ECF0F1'
   }
 
-  public get concrete(): string {
+  /**
+   * Concrete
+   */
+  public get lightGray(): string {
     return '#95A5A6'
   }
 
-  public get asbestos(): string {
+  /**
+   * Asbestos
+   */
+  public get darkGray(): string {
     return '#7F8C8D'
   }
 }
