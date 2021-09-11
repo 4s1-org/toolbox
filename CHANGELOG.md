@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.2](https://gitlab.com/4s1/toolbox/compare/v1.2.1...v1.2.2) (2021-09-11)
+
+
+### Bug Fixes
+
+* darkWhite color ([27c967b](https://gitlab.com/4s1/toolbox/commit/27c967bef53674467af52d9d46e85e49962d5c30))
+
 ### [1.2.1](https://gitlab.com/4s1/toolbox/compare/v1.2.0...v1.2.1) (2021-09-11)
 
 
