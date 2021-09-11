@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.2.1](https://gitlab.com/4s1/toolbox/compare/v1.2.0...v1.2.1) (2021-09-11)
+
+
+### Bug Fixes
+
+* all colors will be published ([705876c](https://gitlab.com/4s1/toolbox/commit/705876cc130e0eee2e6cf50bdba537c527478d00))
+
+
+### Renovate Bot
+
+* update dependency @4s1/eslint-config to v3.1.2 ([f267859](https://gitlab.com/4s1/toolbox/commit/f267859e2e593dfc4392b5a5d2433f75b977f20e))
+
 ## [1.2.0](https://gitlab.com/4s1/toolbox/compare/v1.1.0...v1.2.0) (2021-09-11)
 
 
