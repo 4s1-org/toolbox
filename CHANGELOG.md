@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://gitlab.com/4s1/toolbox/compare/v1.1.0...v1.2.0) (2021-09-11)
+
+
+### Features
+
+* add custom error class ([e4c3725](https://gitlab.com/4s1/toolbox/commit/e4c37259a783310e28fa9d9806c24e55eec027ee))
+
 ## [1.1.0](https://gitlab.com/4s1/toolbox/compare/v1.0.0...v1.1.0) (2021-09-11)
 
 
