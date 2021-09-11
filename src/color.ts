@@ -82,70 +82,70 @@ export abstract class Color {
   /**
    * Sun Flower
    */
-  public get lightYellow(): string {
+  public static get lightYellow(): string {
     return '#F1C40F'
   }
 
   /**
    * Orange
    */
-  public get darkYellow(): string {
+  public static get darkYellow(): string {
     return '#F39C12'
   }
 
   /**
    * Carrot
    */
-  public get lightOrange(): string {
+  public static get lightOrange(): string {
     return '#E67E22'
   }
 
   /**
    * Pumpkin
    */
-  public get darkOrange(): string {
+  public static get darkOrange(): string {
     return '#D35400'
   }
 
   /**
    * Alizarin
    */
-  public get lightRed(): string {
+  public static get lightRed(): string {
     return '#E74C3C'
   }
 
   /**
    * Pomegranate
    */
-  public get darkRed(): string {
+  public static get darkRed(): string {
     return '#C0392B'
   }
 
   /**
    * Clouds
    */
-  public get lightWhite(): string {
+  public static get lightWhite(): string {
     return '#ECF0F1'
   }
 
   /**
    * Silver
    */
-  public get darkWhite(): string {
+  public static get darkWhite(): string {
     return '#ECF0F1'
   }
 
   /**
    * Concrete
    */
-  public get lightGray(): string {
+  public static get lightGray(): string {
     return '#95A5A6'
   }
 
   /**
    * Asbestos
    */
-  public get darkGray(): string {
+  public static get darkGray(): string {
     return '#7F8C8D'
   }
 }
