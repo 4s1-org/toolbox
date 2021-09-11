@@ -39,7 +39,7 @@
     "eslint": "7.32.0",
     "prettier": "2.4.0",
     "semantic-release": "17.4.7",
-    "typescript": "4.4.2"
+    "typescript": "4.4.3"
   },
   "publishConfig": {
     "@4s1:registry": "https://gitlab.com/api/v4/projects/29537331/packages/npm/",
