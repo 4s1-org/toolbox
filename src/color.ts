@@ -132,7 +132,7 @@ export abstract class Color {
    * Silver
    */
   public static get darkWhite(): string {
-    return '#ECF0F1'
+    return '#BDC3C7'
   }
 
   /**
