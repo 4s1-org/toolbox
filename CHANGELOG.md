@@ -1,5 +1,25 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.3](https://gitlab.com/4s1/playground/some-library/compare/v1.2.2...v1.2.3) (2021-09-15)
+
+
+### Features
+
+* use standard-version ([823e709](https://gitlab.com/4s1/playground/some-library/commit/823e709596fdda7cf15e6e901de6be22682f9f3f))
+
+
+### Bug Fixes
+
+* unused packages removed ([db6fecf](https://gitlab.com/4s1/playground/some-library/commit/db6fecf47829321116564e9a0b35b5ffbaee4c62))
+
+
+### Miscellaneous Chores
+
+* update dependency @semantic-release/git to v9.0.1 ([ae19d7a](https://gitlab.com/4s1/playground/some-library/commit/ae19d7a90aab27e3b21d8b569a2f3e0d890748cb))
+* update dependency @types/node to v14.17.16 ([f2a0cd0](https://gitlab.com/4s1/playground/some-library/commit/f2a0cd0876755b76f4bd0b63ce40e4484f1fbf19))
+
 ### [1.2.2](https://gitlab.com/4s1/toolbox/compare/v1.2.1...v1.2.2) (2021-09-11)
 
 
