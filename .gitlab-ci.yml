@@ -1,6 +1,5 @@
 stages:
   - validating
-  - deploying
 
 validate:
   stage: validating
