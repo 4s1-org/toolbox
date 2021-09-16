@@ -1,8 +1,8 @@
 stages:
-  - validating
+  - validate
 
-validate:
-  stage: validating
+validate-job:
+  stage: validate
   image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
   cache:
     key: "$CI_COMMIT_REF_SLUG"
