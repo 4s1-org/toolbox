@@ -1,14 +1,9 @@
-export interface ColorPair {
-  bright: string
-  dark: string
-}
-
 /**
- * 4s1 Colors
+ * Color Palette
  *
  * Based on https://flatui.com/flat-ui-color-palette/
  */
-export abstract class Color {
+export abstract class ColorPalette {
   /**
    * Turquoise
    */
