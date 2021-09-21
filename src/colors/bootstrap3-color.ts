@@ -7,35 +7,25 @@ export abstract class Bootstrap3Color {
   /**
    * called "Primary"
    */
-  public static get blue(): string {
-    return '#337ab7'
-  }
+  public static readonly blue = '#337ab7'
 
   /**
    * called "Success"
    */
-  public static get green(): string {
-    return '#5cb85c'
-  }
+  public static readonly green = '#5cb85c'
 
   /**
    * called "Info"
    */
-  public static get cyan(): string {
-    return '#5bc0de'
-  }
+  public static readonly cyan = '#5bc0de'
 
   /**
    * called "Warning"
    */
-  public static get yellow(): string {
-    return '#f0ad4e'
-  }
+  public static readonly yellow = '#f0ad4e'
 
   /**
    * called "Danger"
    */
-  public static get red(): string {
-    return '#d9534f'
-  }
+  public static readonly red = '#d9534f'
 }

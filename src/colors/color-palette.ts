@@ -7,140 +7,100 @@ export abstract class ColorPalette {
   /**
    * Turquoise
    */
-  public static get lightTurquoise(): string {
-    return '#1ABC9C'
-  }
+  public static readonly lightTurquoise = '#1abc9c'
 
   /**
    * Green Sea
    */
-  public static get darkTurquoise(): string {
-    return '#16A085'
-  }
+  public static readonly darkTurquoise = '#16a085'
 
   /**
    * Emerald
    */
-  public static get lightGreen(): string {
-    return '#2ECC71'
-  }
+  public static readonly lightGreen = '#2ecc71'
 
   /**
    * Nephritis
    */
-  public static get dargGreen(): string {
-    return '#27AE60'
-  }
+  public static readonly dargGreen = '#27ae60'
 
   /**
    * Peter River
    */
-  public static get lightBlue(): string {
-    return '#3498DB'
-  }
+  public static readonly lightBlue = '#3498db'
 
   /**
    * Belize Hole
    */
-  public static get darkBlue(): string {
-    return '#2980B9'
-  }
+  public static readonly darkBlue = '#2980b9'
 
   /**
    * Amethyst
    */
-  public static get lightPurple(): string {
-    return '#9B59B6'
-  }
+  public static readonly lightPurple = '#9b59b6'
 
   /**
    * Wisteria
    */
-  public static get darkPurple(): string {
-    return '#8E44AD'
-  }
+  public static readonly darkPurple = '#8e44ad'
 
   /**
    * Wet Asphalt
    */
-  public static get lightBlack(): string {
-    return '#34495E'
-  }
+  public static readonly lightBlack = '#34495e'
 
   /**
    * Midnight Blue
    */
-  public static get darkBlack(): string {
-    return '#2C3E50'
-  }
+  public static readonly darkBlack = '#2c3e50'
 
   /**
    * Sun Flower
    */
-  public static get lightYellow(): string {
-    return '#F1C40F'
-  }
+  public static readonly lightYellow = '#f1c40f'
 
   /**
    * Orange
    */
-  public static get darkYellow(): string {
-    return '#F39C12'
-  }
+  public static readonly darkYellow = '#f39c12'
 
   /**
    * Carrot
    */
-  public static get lightOrange(): string {
-    return '#E67E22'
-  }
+  public static readonly lightOrange = '#e67e22'
 
   /**
    * Pumpkin
    */
-  public static get darkOrange(): string {
-    return '#D35400'
-  }
+  public static readonly darkOrange = '#d35400'
 
   /**
    * Alizarin
    */
-  public static get lightRed(): string {
-    return '#E74C3C'
-  }
+  public static readonly lightRed = '#e74c3c'
 
   /**
    * Pomegranate
    */
-  public static get darkRed(): string {
-    return '#C0392B'
-  }
+  public static readonly darkRed = '#c0392b'
 
   /**
    * Clouds
    */
-  public static get lightWhite(): string {
-    return '#ECF0F1'
-  }
+  public static readonly lightWhite = '#ecf0f1'
 
   /**
    * Silver
    */
-  public static get darkWhite(): string {
-    return '#BDC3C7'
-  }
+  public static readonly darkWhite = '#bdc3c7'
 
   /**
    * Concrete
    */
-  public static get lightGray(): string {
-    return '#95A5A6'
-  }
+  public static readonly lightGray = '#95a5a6'
 
   /**
    * Asbestos
    */
-  public static get darkGray(): string {
-    return '#7F8C8D'
-  }
+  public static readonly darkGray = '#7f8c8d'
 }
