@@ -107,8 +107,3 @@ export class Logger extends BaseLogger {
     }
   }
 }
-
-/**
- * Default logger instance
- */
-export const logger = new Logger()
