@@ -1,6 +1,44 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [2.0.0](https://gitlab.com/4s1/toolbox/compare/v1.2.3...v2.0.0) (2021-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* FourS1Error -> DefaultError
+
+### Features
+
+* add bootstrap 3+5 colors ([3772e88](https://gitlab.com/4s1/toolbox/commit/3772e8843c22c30542a53369f3c8bd32f47ea38d))
+* add console colors ([38f4b7f](https://gitlab.com/4s1/toolbox/commit/38f4b7f10976989f3b30de95a812900991bad110))
+* add logger ([cff1cc4](https://gitlab.com/4s1/toolbox/commit/cff1cc44cf38ff9b06b101d2a311168de98f6675))
+* rename error class ([30cc3d3](https://gitlab.com/4s1/toolbox/commit/30cc3d33b6df60b1a2bf7b57cb164f27b8603ad0))
+
+
+### Bug Fixes
+
+* simplify color definitions ([ab7fe37](https://gitlab.com/4s1/toolbox/commit/ab7fe37f88393588bff108f4f0ad577729a49f82))
+
+
+### Continuous Integration
+
+* add cache setting ([179ccb1](https://gitlab.com/4s1/toolbox/commit/179ccb13a3f91533b12f0e8bbb66b1b8f1c9545e))
+* bring .gitlab-ci.yml to standard format ([37fc900](https://gitlab.com/4s1/toolbox/commit/37fc900bf37eb33fd5bcbead32acf5aa8ef1fe0e))
+* remove semantic-release stuff ([d95ba58](https://gitlab.com/4s1/toolbox/commit/d95ba588d7eee130afdc342dfa38bc0c3da1dd6b))
+* remove unused var ([e69b1f0](https://gitlab.com/4s1/toolbox/commit/e69b1f0c44d8a0d1ef83716ea8f5d35cd0e4addd))
+
+
+### Documentation
+
+* fix changelog ([ec4c682](https://gitlab.com/4s1/toolbox/commit/ec4c6825f9225e5e6049192fa34994efad35ec89))
+
+
+### Miscellaneous Chores
+
+* project settings ([21e76d7](https://gitlab.com/4s1/toolbox/commit/21e76d757671a28fc5fdd9e823a56799c56ea97e))
+* typo ([bd2fdbe](https://gitlab.com/4s1/toolbox/commit/bd2fdbe5c5ea16e5dfd23ad5b12cdec1880259fd))
+* update dependency @types/node to v14.17.17 ([06f0cff](https://gitlab.com/4s1/toolbox/commit/06f0cfff0635c507fab6221856d0f5ac8212d800))
+* update dependency prettier to v2.4.1 ([f9a60d8](https://gitlab.com/4s1/toolbox/commit/f9a60d8a47063774e7dd2f6e7e289e6cb0f30da1))
 
 ## [1.2.3](https://gitlab.com/4s1/toolbox/compare/v1.2.2...v1.2.3) (2021-09-15)
 
