@@ -1,5 +1,5 @@
-import { LogLevelEnum } from './log-level.enum'
-import { DefaultError } from '../default-error'
+import { LogLevelEnum } from './log-level.enum.js'
+import { DefaultError } from '../default-error.js'
 
 type LogLevelString = 'trace' | 'debug' | 'info' | 'warn' | 'error' | 'fatal' | 'silent'
 

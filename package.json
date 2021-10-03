@@ -11,15 +11,16 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "tsc",
-    "build:dev": "tsc --project tsconfig.dev.json",
+    "build": "rm -rf dist && tsc",
+    "build:dev": "pnpm run build -- --project tsconfig.dev.json",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "eslint --ext .ts src/",
