@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.1](https://gitlab.com/4s1/toolbox/compare/v2.0.0...v2.0.1) (2021-10-04)
+
+
+### Miscellaneous Chores
+
+* prettier should not format tsconfig ([cf52a25](https://gitlab.com/4s1/toolbox/commit/cf52a250201a288654fd7776f9b8bed005d4b85e))
+* update commitlint monorepo to v13.2.0 ([3b56e99](https://gitlab.com/4s1/toolbox/commit/3b56e998aae2d857fd4bf0b45a5f95fc9904b994))
+* update dependency @4s1/changelog-config to v2 ([db42428](https://gitlab.com/4s1/toolbox/commit/db424283978534178fe0ca57ef8a409e23f65f1a))
+* update dependency @types/node to v14.17.18 ([a3fae7a](https://gitlab.com/4s1/toolbox/commit/a3fae7ab958c0357d4048a3dfb1ea744b8186712))
+* update dependency @types/node to v14.17.19 ([1e107e8](https://gitlab.com/4s1/toolbox/commit/1e107e8ef376baa51273d73fe65e7fdabf48f516))
+* update dependency @types/node to v14.17.20 ([c7e6a27](https://gitlab.com/4s1/toolbox/commit/c7e6a270fab11adc4cd81a3e11644845f456457e))
+
 ## [2.0.0](https://gitlab.com/4s1/toolbox/compare/v1.2.3...v2.0.0) (2021-09-21)
 
 
