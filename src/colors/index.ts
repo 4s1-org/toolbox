@@ -1,4 +1,4 @@
-export { Bootstrap3Color } from './bootstrap3-color'
-export { Bootstrap5Color } from './bootstrap5-color'
-export { ColorPalette } from './color-palette'
-export { ConsoleColor } from './console-color'
+export { Bootstrap3Color } from './bootstrap3-color.js'
+export { Bootstrap5Color } from './bootstrap5-color.js'
+export { ColorPalette } from './color-palette.js'
+export { ConsoleColor } from './console-color.js'

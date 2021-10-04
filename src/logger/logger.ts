@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import { LogLevelEnum } from './log-level.enum'
-import { BaseLogger } from './base-logger'
+import { LogLevelEnum } from './log-level.enum.js'
+import { BaseLogger } from './base-logger.js'
 
 /**
  * Logger

@@ -11,14 +11,18 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
+    "build:dev": "pnpm run build -- --project tsconfig.dev.json",
+    "start": "node dist/index.js",
+    "start:dev": "node --loader ts-node/esm src/index.ts",
     "preinstall": "npx only-allow pnpm",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "eslint --ext .ts src/",
@@ -32,8 +36,8 @@
   },
   "prettier": "@4s1/eslint-config",
   "devDependencies": {
-    "@4s1/changelog-config": "3.0.0",
     "@4s1/eslint-config": "3.1.2",
+    "@4s1/ts-config": "1.1.0",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@types/node": "14.17.20",
