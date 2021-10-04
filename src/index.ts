@@ -1,3 +1,3 @@
-export * from './colors'
-export * from './logger'
-export { DefaultError } from './default-error'
+export * from './colors/index.js'
+export * from './logger/index.js'
+export { DefaultError } from './default-error.js'
