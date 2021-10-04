@@ -1,5 +1,14 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.0.0](https://gitlab.com/4s1/toolbox/compare/v2.0.0...v3.0.0) (2021-10-04)
+
+
+### Features
+
+* change to ESM ([ce64329](https://gitlab.com/4s1/toolbox/commit/ce6432949570ebe9aecfde6f599c21bd9c661a3f))
+
 ## [2.0.1](https://gitlab.com/4s1/toolbox/compare/v2.0.0...v2.0.1) (2021-10-04)
 
 
