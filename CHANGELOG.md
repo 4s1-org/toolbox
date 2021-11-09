@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.1](https://gitlab.com/4s1/toolbox/compare/v4.0.0...v4.0.1) (2021-11-09)
+
 ## [4.0.0](https://gitlab.com/4s1/toolbox/compare/v3.0.0...v4.0.0) (2021-11-09)
 
 ## [3.0.0](https://gitlab.com/4s1/toolbox/compare/v2.0.0...v3.0.0) (2021-10-04)
