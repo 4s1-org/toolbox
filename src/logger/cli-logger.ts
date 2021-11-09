@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
-import { LogLevelEnum } from './log-level.enum.js'
-import { BaseLogger } from './base-logger.js'
-import { ConsoleColor } from '../colors/console-color.js'
-import { DefaultError } from '../default-error.js'
+import { LogLevelEnum } from './log-level.enum'
+import { BaseLogger } from './base-logger'
+import { ConsoleColor } from '../colors/console-color'
+import { DefaultError } from '../default-error'
 
 /**
  * Logger
