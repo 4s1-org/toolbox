@@ -19,11 +19,15 @@ validate-job:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
+  artifacts:
+    paths:
+      - coverage/
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
   script:
     - pnpm i
     - pnpm run lint
     - pnpm run build
-    - pnpm run test
+    - pnpm run test:cov
 
 sonarcloud-check:
   stage: sonar
