@@ -5,7 +5,7 @@ specifiers:
   '@4s1/ts-config': 1.4.0
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
-  '@types/node': 14.18.0
+  '@types/node': 14.18.1
   eslint: 8.4.1
   husky: 7.0.4
   prettier: 2.5.1
@@ -17,7 +17,7 @@ devDependencies:
   '@4s1/ts-config': registry.npmjs.org/@4s1/ts-config/1.4.0
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
-  '@types/node': 14.18.0
+  '@types/node': 14.18.1
   eslint: 8.4.1
   husky: 7.0.4
   prettier: 2.5.1
@@ -273,8 +273,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.18.0:
-    resolution: {integrity: sha512-0GeIl2kmVMXEnx8tg1SlG6Gg8vkqirrW752KqolYo1PHevhhZN3bhJ67qHj+bQaINhX0Ra3TlWwRvMCd9iEfNQ==}
+  /@types/node/14.18.1:
+    resolution: {integrity: sha512-fTFWOFrgAkj737w1o0HLTIgisgYHnsZfeiqhG1Ltrf/iJjudEbUwetQAsfrtVE49JGwvpEzQR+EbMkIqG4227g==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
