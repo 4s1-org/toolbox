@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://gitlab.com/4s1/toolbox/compare/v4.1.0...v4.2.0) (2021-12-24)
+
+
+### Features
+
+* add TS Modify type as wrapper for Omit ([05284bc](https://gitlab.com/4s1/toolbox/commit/05284bcdacafbcab9ea71ab9a74abf9a45f64b8a))
+* **utils:** add isSet and assertSet functions ([b98a56e](https://gitlab.com/4s1/toolbox/commit/b98a56ea08fa9011abb35dd6cd36877b90631869))
+
 ## [4.1.0](https://gitlab.com/4s1/toolbox/compare/v4.0.1...v4.1.0) (2021-12-15)
 
 ## [4.0.1](https://gitlab.com/4s1/toolbox/compare/v4.0.0...v4.0.1) (2021-11-09)
