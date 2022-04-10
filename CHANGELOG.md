@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.4.0](https://github.com/4s1-org/toolbox/compare/v4.3.1...v4.4.0) (2022-04-10)
+
+
+### Features
+
+* add AssertionError class ([19705dd](https://github.com/4s1-org/toolbox/commit/19705ddc37c8234edeb0ca6c4ffc4538a9ec055d))
+* isSet and assertSet now return NonNullable type ([e69810b](https://github.com/4s1-org/toolbox/commit/e69810bfd1e88b99e85e8beaeac1b02948560138))
+
 ## [4.3.1](https://github.com/4s1-org/toolbox/compare/v4.3.0...v4.3.1) (2022-04-05)
 
 ## [4.3.0](https://github.com/4s1-org/toolbox/compare/v4.2.0...v4.3.0) (2022-02-13)

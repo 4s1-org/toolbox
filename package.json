@@ -1,6 +1,6 @@
 {
   "name": "@4s1/toolbox",
-  "version": "4.3.1",
+  "version": "4.4.0",
   "description": "Toolbox",
   "keywords": [
     "toolbox",
@@ -56,6 +56,6 @@
   },
   "publishConfig": {
     "access": "public",
-	"registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   }
 }
